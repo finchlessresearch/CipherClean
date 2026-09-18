@@ -1,0 +1,21 @@
+[package]
+name = "cipherclean_core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "cipherclean_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.20", features = ["extension-module"] }
+rayon = "1.8"
+sha2 = "0.10"
+hex = "0.4"
+walkdir = "2.4"
+libc = "0.2"
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = 3
