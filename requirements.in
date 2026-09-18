@@ -1,0 +1,7 @@
+PyQt6>=6.4.0
+humanize>=4.0.0
+psutil>=5.9.0
+# Visualization (Phase 3 Enhancement)
+pyvis>=0.3.2
+# Rust Build Integration
+maturin>=1.0.0

@@ -1,0 +1,49 @@
+```
+# Rust build artifacts
+rust_core/target/
+
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Dependencies
+**/node_modules/
+**/venv/
+**/env/
+**/.env
+**/.env.*
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Distribution / packaging
+.dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Rust specific
+Cargo.lock
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+```
